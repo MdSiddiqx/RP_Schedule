@@ -1,15 +1,15 @@
-# Ramaiah Polytechnic Timetable (PWA) 📚
+# Ramaiah Polytechnic Timetable (PWA) 
 
 A modern, mobile-friendly Progressive Web App (PWA) designed for students to access their class schedules quickly, even offline.
 
-## ✨ Features
+## Features
 - **Today's View:** Automatically shows the current day's classes.
 - **Weekly View:** Filterable schedule for the entire week.
 - **Offline Access:** Works without an internet connection once installed (via Service Workers).
 - **Mobile First:** Optimized for touch interactions and responsive design.
 - **Visual Indicators:** Real-time "Current Class" highlighting and subject-type color coding.
 
-## 🛠️ Tech Stack
+## Tech Stack
 - **HTML5/CSS3:** Modern UI with glassmorphism and CSS variables.
 - **JavaScript (Vanilla):** Dynamic rendering and state management.
 - **Service Workers:** For offline caching and PWA functionality.
