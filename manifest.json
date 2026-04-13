@@ -1,8 +1,8 @@
 {
   "name": "Ramaiah Polytechnic Timetable",
   "short_name": "RP Timetable",
-  "start_url": "./index.html",
-  "scope": "./",
+  "start_url": "/RP_Schedule/",
+  "scope": "/RP_Schedule/",
   "display": "standalone",
   "background_color": "#0f0f23",
   "theme_color": "#1a1a2e",
