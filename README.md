@@ -17,9 +17,9 @@ A modern, mobile-friendly Progressive Web App (PWA) designed for students to acc
 
 ## Project Structure
 ```text
-├── index.html          # Main application structure
-├── style.css           # Custom styling and animations
-├── script.js          # Timetable logic and data
-├── sw.js              # Service Worker for offline support
-├── manifest.json      # PWA configuration
-└── assets/            # App icons (192px and 512px)
+├── index.html          
+├── style.css           
+├── script.js          
+├── sw.js              
+├── manifest.json     
+└── assets/           
