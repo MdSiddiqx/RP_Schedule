@@ -48,7 +48,8 @@
 
     <script src="script.js"></script>
 <footer style="text-align:center; font-size: 0.8rem; opacity: 0.6; margin-top: 2rem;">
-  © 2026 • Ramaiah Polytechnic • <a href="https://github.com/MdSiddiqx" style="color: #f0f0f0;">Md Siddiq</a>
+  © <span id="currentYear"></span> • Ramaiah Polytechnic • <a href="https://github.com/MdSiddiqx" style="color: #f0f0f0;">Md Siddiq</a>
+  <script>document.getElementById('currentYear').textContent = new Date().getFullYear();</script>
 </footer>
 
 </body>
