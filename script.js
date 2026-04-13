@@ -228,10 +228,15 @@ function isCurrentTime(timeSlot) {
     const now = new Date();
     const currentTime = now.getHours() * 60 + now.getMinutes();
     
-    // Parse time slot (e.g., "9:00–10:00")
     const [startTime, endTime] = timeSlot.split('–');
-    const [startHour, startMin] = startTime.split(':').map(Number);
-    const [endHour, endMin] = endTime.split(':').map(Number);
+    let [startHour, startMin] = startTime.split(':').map(Number);
+    let [endHour, endMin] = endTime.split(':').map(Number);
+    
+    // Convert afternoon hours (1 PM - 7 PM) to 24-hour format
+    if (startHour >= 1 && startHour <= 7) startHour += 12;
+    if (endHour >= 1 && endHour <= 7) endHour += 12;
+    // Handle 12 PM (noon)
+    if (startHour === 12 && startTime.includes("PM")) startHour = 12; 
     
     const startMinutes = startHour * 60 + startMin;
     const endMinutes = endHour * 60 + endMin;
