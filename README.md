@@ -15,7 +15,7 @@ A modern, mobile-friendly Progressive Web App (PWA) designed for students to acc
 - **Service Workers:** For offline caching and PWA functionality.
 - **Font Awesome:** For intuitive iconography.
 
-## 📂 Project Structure
+## Project Structure
 ```text
 ├── index.html          # Main application structure
 ├── style.css           # Custom styling and animations
